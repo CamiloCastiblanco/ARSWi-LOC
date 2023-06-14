@@ -15,10 +15,21 @@ En el el directorio `src.main.java.edu.escuelaing.app`, se encuentra la clase pr
 Este metodo crea un objeto Organize el cual dependiendo de la entrada que ingrese la persona en App, tomara la decision por el metodo `identify()` de si es un Loc o un Phy para empezar el conteo del archivo.
 ### If its Loc
 Si se identifico en Organizar que el conteo es de tipo Loc,por el metodo `read` y `verifyDoc` no se contaran las lineas de codigo que estan documentadas y retornara un tipo entero.
+
 ![](img/LOC.png)
 ### If its Phy
 Si se identifico en Organizar que el conteo es de tipo Phy, la clase retorna por el metodo `read` todas las lineas contando las documentadas.
+
 ![](img/phy.png)
+
+## Tests
+Estas son cada una de las pruebas que se realizaron.
+
+![](img/TestCode.png)
+
+Y estos son los resultados.
+
+![](img/AppTest.png)
 
 ## LOC/h.
 + Entendimiento del problema: **30 minutos**
